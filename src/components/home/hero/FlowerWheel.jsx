@@ -33,7 +33,7 @@ const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
       </div>
 
       {/* Background soft circle */}
-      <div className="absolute inset-0 m-auto w-[280px] h-[280px] md:w-[520px] md:h-[520px] rounded-full border border-gray-200/50 bg-white/20 backdrop-blur-3xl shadow-2xl shadow-[var(--color-soft-sage)]/20 pointer-events-none z-10"></div>
+      <div className="absolute inset-0 m-auto w-[280px] h-[280px] md:w-[520px] md:h-[520px] rounded-full border border-gray-200/50 bg-white/20 backdrop-blur-md md:backdrop-blur-3xl shadow-2xl shadow-[var(--color-soft-sage)]/20 pointer-events-none z-10"></div>
       
       {/* Navigation Controls */}
       <NavigationControls onPrev={handlePrev} onNext={handleNext} />
@@ -95,7 +95,8 @@ const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
               }}
               className={`absolute m-auto w-32 h-32 md:w-44 md:h-44 rounded-full overflow-hidden shadow-xl bg-white border-4 border-white/80 flex items-center justify-center ${isActive ? 'cursor-default' : 'cursor-pointer hover:border-[var(--color-primary-green)]/50'}`}
               style={{
-                transformOrigin: 'center center'
+                transformOrigin: 'center center',
+                willChange: 'transform, opacity'
               }}
             >
               <img 
@@ -103,6 +104,8 @@ const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
                 alt={product.name} 
                 className="w-full h-full object-cover"
                 draggable="false"
+                loading="eager"
+                fetchpriority={isActive ? "high" : "auto"}
               />
             </motion.div>
           );
