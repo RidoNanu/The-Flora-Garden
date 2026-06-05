@@ -19,11 +19,13 @@ const ProductCard = ({ product }) => {
     >
       {/* Image Container */}
       <div className="relative h-72 overflow-hidden bg-[var(--color-cream-white)]">
-        <img
-          src={product.image}
-          alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        />
+        <Link to={`/products/${product.id}`} className="block w-full h-full">
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+        </Link>
         
         {/* Badges */}
         {product.bestseller && (

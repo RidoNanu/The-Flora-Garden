@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import NavigationControls from './NavigationControls';
 
 const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
+  const navigate = useNavigate();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -84,7 +86,13 @@ const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
           return (
             <motion.div
               key={product.id}
-              onClick={() => setActiveIndex(index)}
+              onClick={() => {
+                if (isActive) {
+                  navigate(`/products/${product.id}`);
+                } else {
+                  setActiveIndex(index);
+                }
+              }}
               initial={false}
               animate={{ x, y, scale, zIndex, opacity }}
               transition={{
