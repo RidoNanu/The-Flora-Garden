@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import NavigationControls from './NavigationControls';
 
 const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const numItems = products.length;
-  const radius = window.innerWidth < 768 ? 140 : 260; // Responsive radius
+  const radius = windowWidth < 768 ? 140 : 260; // Responsive radius
 
   const handleNext = () => {
     setActiveIndex((prev) => (prev + 1) % numItems);
@@ -50,7 +58,7 @@ const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
             // Active item sits perfectly in the center
             x = 0;
             y = 0;
-            scale = window.innerWidth < 768 ? 1.5 : 2.2;
+            scale = windowWidth < 768 ? 1.5 : 2.2;
             zIndex = 50;
             opacity = 1;
           } else {
@@ -68,7 +76,7 @@ const FlowerWheel = ({ products, activeIndex, setActiveIndex }) => {
             const radian = (angle * Math.PI) / 180;
             x = Math.cos(radian) * radius;
             y = Math.sin(radian) * radius;
-            scale = window.innerWidth < 768 ? 0.4 : 0.45;
+            scale = windowWidth < 768 ? 0.4 : 0.45;
             zIndex = 10;
             opacity = 0.6;
           }
