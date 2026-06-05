@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Peace Lily Elegance",
+    "name": "Caladium Red Flash",
     "category": "Indoor Plants",
     "price": 45.99,
     "rating": 4.8,
@@ -19,7 +19,7 @@
   },
   {
     "id": "2",
-    "name": "Silver Pothos Cascade",
+    "name": "Satin Pothos",
     "category": "Indoor Plants",
     "price": 35.99,
     "rating": 4.9,
@@ -37,7 +37,7 @@
   },
   {
     "id": "3",
-    "name": "Premium ZZ Plant",
+    "name": "Peace Lily",
     "category": "Indoor Plants",
     "price": 55.00,
     "rating": 4.8,
@@ -55,7 +55,7 @@
   },
   {
     "id": "4",
-    "name": "Snake Plant Trio",
+    "name": "ZZ Plant",
     "category": "Indoor Plants",
     "price": 65.00,
     "rating": 4.9,
@@ -73,7 +73,7 @@
   },
   {
     "id": "5",
-    "name": "Monstera Deliciosa",
+    "name": "Snake Plant",
     "category": "Indoor Plants",
     "price": 85.00,
     "rating": 4.7,
@@ -109,7 +109,7 @@
   },
   {
     "id": "7",
-    "name": "Pink Caladium Beauty",
+    "name": "Monstera Deliciosa",
     "category": "Indoor Plants",
     "price": 45.00,
     "rating": 4.6,
