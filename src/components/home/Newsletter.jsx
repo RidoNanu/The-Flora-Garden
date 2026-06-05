@@ -20,7 +20,7 @@ const Newsletter = () => {
     <section className="py-24 relative overflow-hidden bg-[#2D2D2D]">
       <div className="absolute inset-0 bg-gradient-to-br from-black/80 to-transparent z-10"></div>
       <img 
-        src="./images/plants/plant-1.jpg" 
+        src="/The-Flora-Garden/images/plants/plant-1.webp" 
         alt="Background" 
         className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-overlay"
       />

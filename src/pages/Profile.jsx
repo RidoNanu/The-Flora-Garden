@@ -5,7 +5,7 @@ import { Flower2 } from 'lucide-react';
 import Button from '../components/common/Button';
 import ProductCard from '../components/common/ProductCard';
 import productsData from '../data/products.json';
-import amiProfilePic from '../assets/ami_profile.jpeg';
+import amiProfilePic from '../assets/ami_profile.webp';
 
 const Profile = () => {
   const [activeTab, setActiveTab] = useState('profile');

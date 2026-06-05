@@ -4,8 +4,8 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const categories = [
-  { name: 'Indoor Plants', image: '/images/plants/plant-2.jpg', link: '/products?category=Indoor%20Plants' },
-  { name: 'Beautiful Bouquets', image: '/images/bouquets/bouquet-1.jpg', link: '/products?category=Bouquets' },
+  { name: 'Indoor Plants', image: '/The-Flora-Garden/images/plants/plant-2.webp', link: '/products?category=Indoor%20Plants' },
+  { name: 'Beautiful Bouquets', image: '/The-Flora-Garden/images/bouquets/bouquet-1.webp', link: '/products?category=Bouquets' },
 ];
 
 const FeaturedCategories = () => {

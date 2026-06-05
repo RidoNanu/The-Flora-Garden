@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiShoppingCart, FiUser, FiMenu, FiX } from 'react-icons/fi';
 import { useCart } from '../../context/CartContext';
 import clsx from 'clsx';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
