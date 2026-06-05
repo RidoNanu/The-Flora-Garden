@@ -41,7 +41,7 @@ const Products = () => {
       <div className="relative h-64 md:h-80 bg-botanical-gradient flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/plants/plant-1.jpg" 
+            src="./images/plants/plant-1.jpg" 
             alt="Floral Collection" 
             className="w-full h-full object-cover opacity-20 mix-blend-multiply"
           />

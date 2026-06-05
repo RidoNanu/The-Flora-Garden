@@ -6,7 +6,7 @@
     "price": 45.99,
     "rating": 4.8,
     "reviews": 124,
-    "image": "/images/plants/plant-1.jpg",
+    "image": "./images/plants/plant-1.jpg",
     "description": "A beautiful, easy-to-care-for Peace Lily with glossy green leaves and elegant white blooms. Perfect for purifying indoor air.",
     "specifications": [
       "Spathiphyllum plant",
@@ -24,7 +24,7 @@
     "price": 35.99,
     "rating": 4.9,
     "reviews": 85,
-    "image": "/images/plants/plant-2.jpg",
+    "image": "./images/plants/plant-2.jpg",
     "description": "A stunning trailing plant featuring heart-shaped leaves with striking silver variegation. Fast-growing and excellent for shelves.",
     "specifications": [
       "Scindapsus pictus",
@@ -42,7 +42,7 @@
     "price": 55.00,
     "rating": 4.8,
     "reviews": 210,
-    "image": "/images/plants/plant-3.jpg",
+    "image": "./images/plants/plant-3.jpg",
     "description": "Known as the ultimate indestructible plant, the ZZ features thick, waxy, dark green leaves that reflect light beautifully.",
     "specifications": [
       "Zamioculcas zamiifolia",
@@ -60,7 +60,7 @@
     "price": 65.00,
     "rating": 4.9,
     "reviews": 340,
-    "image": "/images/plants/plant-4.jpg",
+    "image": "./images/plants/plant-4.jpg",
     "description": "A sleek, architectural collection of Sansevieria. These hardy plants are incredible oxygen producers and thrive on neglect.",
     "specifications": [
       "Sansevieria trifasciata",
@@ -78,7 +78,7 @@
     "price": 85.00,
     "rating": 4.7,
     "reviews": 92,
-    "image": "/images/plants/plant-5.jpg",
+    "image": "./images/plants/plant-5.jpg",
     "description": "The iconic 'Swiss Cheese Plant' with large, beautifully fenestrated tropical leaves. A spectacular statement piece for any bright room.",
     "specifications": [
       "Large split-leaf Monstera",
@@ -96,7 +96,7 @@
     "price": 95.00,
     "rating": 4.8,
     "reviews": 115,
-    "image": "/images/plants/plant-6.jpg",
+    "image": "./images/plants/plant-6.jpg",
     "description": "A trendy interior design favorite. Features massive, violin-shaped green leaves on a sturdy, tree-like trunk.",
     "specifications": [
       "Ficus lyrata",
@@ -114,7 +114,7 @@
     "price": 45.00,
     "rating": 4.6,
     "reviews": 78,
-    "image": "/images/plants/plant-7.jpg",
+    "image": "./images/plants/plant-7.jpg",
     "description": "Add a massive splash of color with these paper-thin, striking pink and green variegated leaves.",
     "specifications": [
       "Caladium bicolor",
@@ -132,7 +132,7 @@
     "price": 60.00,
     "rating": 5.0,
     "reviews": 205,
-    "image": "/images/plants/plant-8.jpg",
+    "image": "./images/plants/plant-8.jpg",
     "description": "A robust indoor tree featuring thick, glossy leaves with deep burgundy and dark green tones.",
     "specifications": [
       "Ficus elastica 'Burgundy'",
@@ -150,7 +150,7 @@
     "price": 85,
     "rating": 4.9,
     "reviews": 156,
-    "image": "/images/bouquets/bouquet-1.jpg",
+    "image": "./images/bouquets/bouquet-1.jpg",
     "description": "A soft, dreamy mix of pastel pink, peach, and lavender roses and peonies, perfect for welcoming spring.",
     "specifications": [
       "Pastel Roses",
@@ -168,7 +168,7 @@
     "price": 180,
     "rating": 5,
     "reviews": 42,
-    "image": "/images/bouquets/bouquet-2.jpg",
+    "image": "./images/bouquets/bouquet-2.jpg",
     "description": "A breathtaking arrangement of cascading white and purple orchids in a premium glass bowl.",
     "specifications": [
       "4 Stems Phalaenopsis Orchids",
@@ -185,7 +185,7 @@
     "price": 72,
     "rating": 4.7,
     "reviews": 89,
-    "image": "/images/bouquets/bouquet-3.jpg",
+    "image": "./images/bouquets/bouquet-3.jpg",
     "description": "Vibrant pink stargazer lilies that captivate with their striking color and sweet perfume.",
     "specifications": [
       "Pink Stargazer Lilies",
@@ -202,7 +202,7 @@
     "price": 135,
     "rating": 4.8,
     "reviews": 112,
-    "image": "/images/bouquets/bouquet-4.jpg",
+    "image": "./images/bouquets/bouquet-4.jpg",
     "description": "Deep crimson roses paired with a bottle of premium sparkling cider and artisanal truffles.",
     "specifications": [
       "24 Crimson Roses",
@@ -219,7 +219,7 @@
     "price": 165,
     "rating": 4.9,
     "reviews": 94,
-    "image": "/images/bouquets/bouquet-5.jpg",
+    "image": "./images/bouquets/bouquet-5.jpg",
     "description": "A stunning, lush bouquet of pure white and blush peonies, perfect for the modern bride.",
     "specifications": [
       "Premium Peonies",
@@ -236,7 +236,7 @@
     "price": 68,
     "rating": 4.6,
     "reviews": 134,
-    "image": "/images/bouquets/bouquet-6.jpg",
+    "image": "./images/bouquets/bouquet-6.jpg",
     "description": "A bright, joyful bunch of yellow roses to celebrate friendship, success, or simply to spread cheer.",
     "specifications": [
       "20 Yellow Roses",
@@ -253,7 +253,7 @@
     "price": 115,
     "rating": 4.8,
     "reviews": 201,
-    "image": "/images/bouquets/bouquet-1.jpg",
+    "image": "./images/bouquets/bouquet-1.jpg",
     "description": "A wild, organic arrangement featuring dahlias, ranunculus, and wild ivy, giving a freshly-picked garden feel.",
     "specifications": [
       "Dahlias",
@@ -271,7 +271,7 @@
     "price": 145,
     "rating": 5,
     "reviews": 76,
-    "image": "/images/bouquets/bouquet-2.jpg",
+    "image": "./images/bouquets/bouquet-2.jpg",
     "description": "Triple-stemmed pristine white orchids cascading gracefully from a premium dark ceramic pot.",
     "specifications": [
       "Triple-stem White Orchid",
