@@ -127,18 +127,18 @@
   },
   {
     "id": "8",
-    "name": "Burgundy Rubber Tree",
+    "name": "Rhipsalis",
     "category": "Indoor Plants",
     "price": 60.00,
     "rating": 5.0,
     "reviews": 205,
     "image": "/The-Flora-Garden/images/plants/plant-8.webp",
-    "description": "A robust indoor tree featuring thick, glossy leaves with deep burgundy and dark green tones.",
+    "description": "A unique, trailing epiphytic cactus with delicate, cascading green stems that look stunning on a high shelf.",
     "specifications": [
-      "Ficus elastica 'Burgundy'",
-      "Easy maintenance",
-      "Medium to bright light",
-      "Ceramic planter"
+      "Rhipsalis species",
+      "Trailing growth habit",
+      "Bright indirect light",
+      "Low maintenance"
     ],
     "availability": "In Stock",
     "bestseller": false
